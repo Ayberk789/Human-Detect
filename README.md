@@ -14,16 +14,16 @@ import argparse
 ______________________________________
 To give video file as input:
 
-python main.py -v ‘Path_to_video’
+python Human_Detector.py -v ‘Path_to_video’
 
 2. To give image file as input:
 
-python main.py -i ‘Path_to-image’
+python Human_Detector.py -i ‘Path_to-image’
 
 3. To use the camera:
 
-python main.py -c True
+python Human_Detector.py -c True
 
 4. To save the output:
 
-Python main.py -c True -o ‘file_name’
+Python Human_Detector.py -c True -o ‘file_name’
